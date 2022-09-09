@@ -9,10 +9,9 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-/*		Exam exam = new NewlecExam();
+		Exam exam = new NewlecExam();
 		ExamConsole console = new GrideExamConsole(exam);
 		console.setExam(exam);
-		*/
 		
 //		ApplicationContext context = new ClassPathXmlApplicationContext("spring/di/setting.xml");
 	}
