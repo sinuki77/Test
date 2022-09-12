@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/5.3.22/spring-context-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-context/5.3.22/spring-context-5.3.22-sources.jar">
 		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/5.3.22/spring-beans-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-beans/5.3.22/spring-beans-5.3.22-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/5.3.22/spring-core-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-core/5.3.22/spring-core-5.3.22-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-jcl/5.3.22/spring-jcl-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-jcl/5.3.22/spring-jcl-5.3.22-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/5.3.22/spring-expression-5.3.22.jar" sourcepath="M2_REPO/org/springframework/spring-expression/5.3.22/spring-expression-5.3.22-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
